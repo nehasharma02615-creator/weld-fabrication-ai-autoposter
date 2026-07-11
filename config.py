@@ -1,1 +1,14 @@
-#configuration 
+import os
+
+# Facebook
+FACEBOOK_PAGE_ID = os.getenv("FACEBOOK_PAGE_ID")
+FACEBOOK_PAGE_ACCESS_TOKEN = os.getenv("FACEBOOK_PAGE_ACCESS_TOKEN")
+
+# Google Gemini
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
+# Project
+PAGE_NAME = "Weld Fabrication"
+WHATSAPP_NUMBER = "7988404741"
+
+POSTS_PER_DAY = 3
